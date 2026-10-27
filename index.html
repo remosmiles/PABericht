@@ -42,10 +42,6 @@
       
       <!-- ANSICHT 1: ÜBERSICHT ALLER PAs -->
       <section id="view-list" class="view-section">
-        <div class="kpi-grid" id="pa-kpi-bar">
-          <!-- Dynamische KPIs -->
-        </div>
-        
         <div class="table-card">
           <table class="pro-table">
             <thead>
@@ -65,7 +61,6 @@
 
       <!-- ANSICHT 2: DIGITALE AKTE (DETAIL) -->
       <section id="view-detail" class="view-section hidden">
-        
         <div class="detail-header">
           <div class="pa-profile">
             <div class="pa-avatar" id="det-avatar"></div>
@@ -81,23 +76,40 @@
         </div>
 
         <div class="detail-grid">
-          
-          <!-- Spalte 1: Meilensteine (Phase 2) -->
           <div class="detail-card">
             <h3>📍 Meilensteine & Gespräche (Phase 2)</h3>
             <div class="milestone-list" id="det-milestones"></div>
           </div>
-
-          <!-- Spalte 2: Praxisziele (PB) -->
           <div class="detail-card">
             <h3>📋 Praxisziele & Instruktion</h3>
             <div class="praxis-grid" id="det-praxis"></div>
           </div>
-
         </div>
       </section>
-
     </main>
+  </div>
+
+  <!-- POPUP MODAL FÜR DATUM & KÜRZEL -->
+  <div id="task-modal" class="modal-overlay hidden">
+    <div class="modal-box">
+      <h3 style="color:#0f172a; margin-bottom:0.5rem;">Ziel / Meilenstein erreicht</h3>
+      <p id="modal-task-name" style="color:#2563eb; font-weight:600; margin-bottom:1.5rem;"></p>
+      
+      <div class="input-group">
+        <label>Erledigt am (Datum):</label>
+        <input type="date" id="modal-date" class="modal-input">
+      </div>
+      
+      <div class="input-group">
+        <label>Visum (Kürzel PB, z.B. Gi3):</label>
+        <input type="text" id="modal-kuerzel" class="modal-input" placeholder="Kürzel eingeben..." autocomplete="off">
+      </div>
+      
+      <div class="modal-actions">
+        <button type="button" class="btn btn-outline" onclick="closeModal()">Abbrechen</button>
+        <button type="button" class="btn btn-primary" onclick="confirmTask()">Speichern & Erledigen</button>
+      </div>
+    </div>
   </div>
 
   <script src="script.js"></script>
