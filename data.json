@@ -2,41 +2,161 @@
   "aspiranten": [
     {
       "id": "pa-01",
-      "kuerzel": "So1",
-      "name": "Soffner Timothy",
+      "kuerzel": "PA 1",
+      "name": "Polizeiaspirant/in 1",
       "lehrgang": "LG 24-02",
-      "praxisbegleiter": "Kpl P. Gisler / Gi3",
-      "gruppenchef": "Wm R. Zotz / Zo1",
+      "praxisbegleiter": "Noch zuzuteilen",
+      "gruppenchef": "Noch zuzuteilen",
       "status": "In Ausbildung",
       "meilensteine": {
-        "einfuehrung": { "label": "Einführung 2. Ausbildungsjahr", "date": "22.09.2025", "done": true },
-        "dispocheck1": { "label": "Dispocheck 1", "date": "25.01.2025", "done": true },
-        "praxisauftrag1": { "label": "1. Praxisauftrag (pflicht)", "date": "", "done": false },
-        "nivellierung1": { "label": "Nivellierung I", "date": "09.-11.12.25", "done": false },
-        "zwischengespraech1": { "label": "Zwischengespräch 1", "date": "Ende Jan 26", "done": false },
-        "beurteilungsgespraech": { "label": "Beurteilungsgespräch", "date": "22.05.2026", "done": false },
-        "portfolio": { "label": "Abgabe Portfoliobericht", "date": "17.07.2026", "done": false },
-        "berufspruefung": { "label": "Berufsprüfung", "date": "31.08.-04.09.26", "done": false }
+        "einfuehrung": { "label": "Einführung 2. Ausbildungsjahr", "date": "", "info": "", "done": false },
+        "dispocheck1": { "label": "Dispocheck 1", "date": "", "info": "", "done": false },
+        "praxisauftrag1": { "label": "1. Praxisauftrag (pflicht)", "date": "", "info": "", "done": false },
+        "nivellierung1": { "label": "Nivellierung I", "date": "", "info": "", "done": false },
+        "zwischengespraech1": { "label": "Zwischengespräch 1", "date": "", "info": "", "done": false },
+        "beurteilungsgespraech": { "label": "Beurteilungsgespräch", "date": "", "info": "", "done": false },
+        "portfolio": { "label": "Abgabe Portfoliobericht", "date": "", "info": "", "done": false },
+        "berufspruefung": { "label": "Berufsprüfung", "date": "", "info": "", "done": false }
       },
       "praxisziele": {
         "besichtigungen": [
-          { "task": "Werkhof Flüelen", "done": true, "info": "Okt / Gi3" },
-          { "task": "Werkhof Göschenen", "done": true, "info": "Okt / Gi3" },
-          { "task": "PP Altdorf", "done": true, "info": "Okt / Gi3" }
+          { "task": "Werkhof Flüelen", "date": "", "info": "", "done": false },
+          { "task": "Werkhof Göschenen", "date": "", "info": "", "done": false },
+          { "task": "PP Altdorf", "date": "", "info": "", "done": false }
         ],
         "fahrfaehigkeit": [
-          { "task": "Handhabung Atemtestgerät", "done": true, "info": "Sep / Gi3" },
-          { "task": "Handhabung Drug Wipe", "done": true, "info": "Sep / Gi3" },
-          { "task": "Abnahme Führerausweis", "done": false, "info": "" }
+          { "task": "Handhabung Atemtestgerät", "date": "", "info": "", "done": false },
+          { "task": "Handhabung Drug Wipe", "date": "", "info": "", "done": false },
+          { "task": "Abnahme Führerausweis", "date": "", "info": "", "done": false }
         ],
         "bussenwesen": [
-          { "task": "Ordnungsbussen", "done": true, "info": "Sep / Gi3" },
-          { "task": "Kautionen", "done": false, "info": "" }
+          { "task": "Ordnungsbussen", "date": "", "info": "", "done": false },
+          { "task": "Kautionen", "date": "", "info": "", "done": false }
         ],
         "gefangenentransport": [
-          { "task": "Festnahme für Migration", "done": true, "info": "Okt / Gi3" },
-          { "task": "Fesselung (Fussfesseln)", "done": true, "info": "Okt / Gi3" },
-          { "task": "Verhaftsrapport", "done": false, "info": "" }
+          { "task": "Festnahme für Migration", "date": "", "info": "", "done": false },
+          { "task": "Fesselung (Fussfesseln)", "date": "", "info": "", "done": false },
+          { "task": "Verhaftsrapport", "date": "", "info": "", "done": false }
+        ]
+      }
+    },
+    {
+      "id": "pa-02",
+      "kuerzel": "PA 2",
+      "name": "Polizeiaspirant/in 2",
+      "lehrgang": "LG 24-02",
+      "praxisbegleiter": "Noch zuzuteilen",
+      "gruppenchef": "Noch zuzuteilen",
+      "status": "In Ausbildung",
+      "meilensteine": {
+        "einfuehrung": { "label": "Einführung 2. Ausbildungsjahr", "date": "", "info": "", "done": false },
+        "dispocheck1": { "label": "Dispocheck 1", "date": "", "info": "", "done": false },
+        "praxisauftrag1": { "label": "1. Praxisauftrag (pflicht)", "date": "", "info": "", "done": false },
+        "nivellierung1": { "label": "Nivellierung I", "date": "", "info": "", "done": false },
+        "zwischengespraech1": { "label": "Zwischengespräch 1", "date": "", "info": "", "done": false },
+        "beurteilungsgespraech": { "label": "Beurteilungsgespräch", "date": "", "info": "", "done": false },
+        "portfolio": { "label": "Abgabe Portfoliobericht", "date": "", "info": "", "done": false },
+        "berufspruefung": { "label": "Berufsprüfung", "date": "", "info": "", "done": false }
+      },
+      "praxisziele": {
+        "besichtigungen": [
+          { "task": "Werkhof Flüelen", "date": "", "info": "", "done": false },
+          { "task": "Werkhof Göschenen", "date": "", "info": "", "done": false },
+          { "task": "PP Altdorf", "date": "", "info": "", "done": false }
+        ],
+        "fahrfaehigkeit": [
+          { "task": "Handhabung Atemtestgerät", "date": "", "info": "", "done": false },
+          { "task": "Handhabung Drug Wipe", "date": "", "info": "", "done": false },
+          { "task": "Abnahme Führerausweis", "date": "", "info": "", "done": false }
+        ],
+        "bussenwesen": [
+          { "task": "Ordnungsbussen", "date": "", "info": "", "done": false },
+          { "task": "Kautionen", "date": "", "info": "", "done": false }
+        ],
+        "gefangenentransport": [
+          { "task": "Festnahme für Migration", "date": "", "info": "", "done": false },
+          { "task": "Fesselung (Fussfesseln)", "date": "", "info": "", "done": false },
+          { "task": "Verhaftsrapport", "date": "", "info": "", "done": false }
+        ]
+      }
+    },
+    {
+      "id": "pa-03",
+      "kuerzel": "PA 3",
+      "name": "Polizeiaspirant/in 3",
+      "lehrgang": "LG 24-02",
+      "praxisbegleiter": "Noch zuzuteilen",
+      "gruppenchef": "Noch zuzuteilen",
+      "status": "In Ausbildung",
+      "meilensteine": {
+        "einfuehrung": { "label": "Einführung 2. Ausbildungsjahr", "date": "", "info": "", "done": false },
+        "dispocheck1": { "label": "Dispocheck 1", "date": "", "info": "", "done": false },
+        "praxisauftrag1": { "label": "1. Praxisauftrag (pflicht)", "date": "", "info": "", "done": false },
+        "nivellierung1": { "label": "Nivellierung I", "date": "", "info": "", "done": false },
+        "zwischengespraech1": { "label": "Zwischengespräch 1", "date": "", "info": "", "done": false },
+        "beurteilungsgespraech": { "label": "Beurteilungsgespräch", "date": "", "info": "", "done": false },
+        "portfolio": { "label": "Abgabe Portfoliobericht", "date": "", "info": "", "done": false },
+        "berufspruefung": { "label": "Berufsprüfung", "date": "", "info": "", "done": false }
+      },
+      "praxisziele": {
+        "besichtigungen": [
+          { "task": "Werkhof Flüelen", "date": "", "info": "", "done": false },
+          { "task": "Werkhof Göschenen", "date": "", "info": "", "done": false },
+          { "task": "PP Altdorf", "date": "", "info": "", "done": false }
+        ],
+        "fahrfaehigkeit": [
+          { "task": "Handhabung Atemtestgerät", "date": "", "info": "", "done": false },
+          { "task": "Handhabung Drug Wipe", "date": "", "info": "", "done": false },
+          { "task": "Abnahme Führerausweis", "date": "", "info": "", "done": false }
+        ],
+        "bussenwesen": [
+          { "task": "Ordnungsbussen", "date": "", "info": "", "done": false },
+          { "task": "Kautionen", "date": "", "info": "", "done": false }
+        ],
+        "gefangenentransport": [
+          { "task": "Festnahme für Migration", "date": "", "info": "", "done": false },
+          { "task": "Fesselung (Fussfesseln)", "date": "", "info": "", "done": false },
+          { "task": "Verhaftsrapport", "date": "", "info": "", "done": false }
+        ]
+      }
+    },
+    {
+      "id": "pa-04",
+      "kuerzel": "PA 4",
+      "name": "Polizeiaspirant/in 4",
+      "lehrgang": "LG 24-02",
+      "praxisbegleiter": "Noch zuzuteilen",
+      "gruppenchef": "Noch zuzuteilen",
+      "status": "In Ausbildung",
+      "meilensteine": {
+        "einfuehrung": { "label": "Einführung 2. Ausbildungsjahr", "date": "", "info": "", "done": false },
+        "dispocheck1": { "label": "Dispocheck 1", "date": "", "info": "", "done": false },
+        "praxisauftrag1": { "label": "1. Praxisauftrag (pflicht)", "date": "", "info": "", "done": false },
+        "nivellierung1": { "label": "Nivellierung I", "date": "", "info": "", "done": false },
+        "zwischengespraech1": { "label": "Zwischengespräch 1", "date": "", "info": "", "done": false },
+        "beurteilungsgespraech": { "label": "Beurteilungsgespräch", "date": "", "info": "", "done": false },
+        "portfolio": { "label": "Abgabe Portfoliobericht", "date": "", "info": "", "done": false },
+        "berufspruefung": { "label": "Berufsprüfung", "date": "", "info": "", "done": false }
+      },
+      "praxisziele": {
+        "besichtigungen": [
+          { "task": "Werkhof Flüelen", "date": "", "info": "", "done": false },
+          { "task": "Werkhof Göschenen", "date": "", "info": "", "done": false },
+          { "task": "PP Altdorf", "date": "", "info": "", "done": false }
+        ],
+        "fahrfaehigkeit": [
+          { "task": "Handhabung Atemtestgerät", "date": "", "info": "", "done": false },
+          { "task": "Handhabung Drug Wipe", "date": "", "info": "", "done": false },
+          { "task": "Abnahme Führerausweis", "date": "", "info": "", "done": false }
+        ],
+        "bussenwesen": [
+          { "task": "Ordnungsbussen", "date": "", "info": "", "done": false },
+          { "task": "Kautionen", "date": "", "info": "", "done": false }
+        ],
+        "gefangenentransport": [
+          { "task": "Festnahme für Migration", "date": "", "info": "", "done": false },
+          { "task": "Fesselung (Fussfesseln)", "date": "", "info": "", "done": false },
+          { "task": "Verhaftsrapport", "date": "", "info": "", "done": false }
         ]
       }
     }
