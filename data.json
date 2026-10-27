@@ -1,0 +1,44 @@
+{
+  "aspiranten": [
+    {
+      "id": "pa-01",
+      "kuerzel": "So1",
+      "name": "Soffner Timothy",
+      "lehrgang": "LG 24-02",
+      "praxisbegleiter": "Kpl P. Gisler / Gi3",
+      "gruppenchef": "Wm R. Zotz / Zo1",
+      "status": "In Ausbildung",
+      "meilensteine": {
+        "einfuehrung": { "label": "Einführung 2. Ausbildungsjahr", "date": "22.09.2025", "done": true },
+        "dispocheck1": { "label": "Dispocheck 1", "date": "25.01.2025", "done": true },
+        "praxisauftrag1": { "label": "1. Praxisauftrag (pflicht)", "date": "", "done": false },
+        "nivellierung1": { "label": "Nivellierung I", "date": "09.-11.12.25", "done": false },
+        "zwischengespraech1": { "label": "Zwischengespräch 1", "date": "Ende Jan 26", "done": false },
+        "beurteilungsgespraech": { "label": "Beurteilungsgespräch", "date": "22.05.2026", "done": false },
+        "portfolio": { "label": "Abgabe Portfoliobericht", "date": "17.07.2026", "done": false },
+        "berufspruefung": { "label": "Berufsprüfung", "date": "31.08.-04.09.26", "done": false }
+      },
+      "praxisziele": {
+        "besichtigungen": [
+          { "task": "Werkhof Flüelen", "done": true, "info": "Okt / Gi3" },
+          { "task": "Werkhof Göschenen", "done": true, "info": "Okt / Gi3" },
+          { "task": "PP Altdorf", "done": true, "info": "Okt / Gi3" }
+        ],
+        "fahrfaehigkeit": [
+          { "task": "Handhabung Atemtestgerät", "done": true, "info": "Sep / Gi3" },
+          { "task": "Handhabung Drug Wipe", "done": true, "info": "Sep / Gi3" },
+          { "task": "Abnahme Führerausweis", "done": false, "info": "" }
+        ],
+        "bussenwesen": [
+          { "task": "Ordnungsbussen", "done": true, "info": "Sep / Gi3" },
+          { "task": "Kautionen", "done": false, "info": "" }
+        ],
+        "gefangenentransport": [
+          { "task": "Festnahme für Migration", "done": true, "info": "Okt / Gi3" },
+          { "task": "Fesselung (Fussfesseln)", "done": true, "info": "Okt / Gi3" },
+          { "task": "Verhaftsrapport", "done": false, "info": "" }
+        ]
+      }
+    }
+  ]
+}
