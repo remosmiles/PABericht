@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAPO URI | PA Cockpit (C Ausb Stv)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <div id="login-screen" class="login-overlay">
+    <div class="login-box">
+      <div class="login-tag">C AUSB STV - FÜHRUNGSTOOL</div>
+      <h1>Kapo Uri PA Cockpit</h1>
+      <p>Digitale Ausbildungsakte Polizeianwärter</p>
+      <form id="login-form">
+        <input type="password" id="access-code-input" placeholder="Zugangscode eingeben..." required autocomplete="off">
+        <button type="submit" id="login-btn">Cockpit öffnen</button>
+        <p id="login-error" class="error-msg hidden"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- DASHBOARD -->
+  <div id="app-container" class="hidden">
+    <header class="topbar">
+      <div>
+        <h2>Polizeianwärter (PA) Cockpit</h2>
+        <p>Ausbildungskontrolle & Praxis-Tracking</p>
+      </div>
+      <div class="header-actions">
+        <button id="btn-back" class="btn hidden">← Zurück zur Übersicht</button>
+        <button id="btn-save" class="btn btn-primary">💾 Speichern (JSON)</button>
+        <button id="btn-logout" class="btn btn-danger">Abmelden</button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      
+      <!-- ANSICHT 1: ÜBERSICHT ALLER PAs -->
+      <section id="view-list" class="view-section">
+        <div class="kpi-grid" id="pa-kpi-bar">
+          <!-- Dynamische KPIs -->
+        </div>
+        
+        <div class="table-card">
+          <table class="pro-table">
+            <thead>
+              <tr>
+                <th>Aspirant/in</th>
+                <th>Kürzel</th>
+                <th>Lehrgang</th>
+                <th>Praxisbegleiter (PB)</th>
+                <th>Global-Fortschritt</th>
+                <th>Aktion</th>
+              </tr>
+            </thead>
+            <tbody id="pa-tbody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ANSICHT 2: DIGITALE AKTE (DETAIL) -->
+      <section id="view-detail" class="view-section hidden">
+        
+        <div class="detail-header">
+          <div class="pa-profile">
+            <div class="pa-avatar" id="det-avatar"></div>
+            <div>
+              <h1 id="det-name">Name</h1>
+              <p id="det-meta">Lehrgang | Praxisbegleiter</p>
+            </div>
+          </div>
+          <div class="pa-score">
+            <div class="score-val" id="det-score">0%</div>
+            <div class="score-label">Gesamtfortschritt</div>
+          </div>
+        </div>
+
+        <div class="detail-grid">
+          
+          <!-- Spalte 1: Meilensteine (Phase 2) -->
+          <div class="detail-card">
+            <h3>📍 Meilensteine & Gespräche (Phase 2)</h3>
+            <div class="milestone-list" id="det-milestones"></div>
+          </div>
+
+          <!-- Spalte 2: Praxisziele (PB) -->
+          <div class="detail-card">
+            <h3>📋 Praxisziele & Instruktion</h3>
+            <div class="praxis-grid" id="det-praxis"></div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
